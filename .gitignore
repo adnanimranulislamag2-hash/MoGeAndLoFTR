@@ -1,0 +1,63 @@
+# Conda / Python
+anaconda3/
+.env
+__pycache__/
+*.pyc
+
+# Caches
+.cache/
+.conda/
+.nv/
+.vscode-server/
+
+# Models & large files (adjust if needed)
+models/
+*.pth
+*.ckpt
+*.onnx
+*.pt
+
+# Logs & temp
+logs/
+tmp/
+*.log
+
+
+# --- System / Shell ---
+.bash_history
+.bashrc
+.bash_profile
+.gitconfig
+
+# --- Conda / Python ---
+anaconda3/
+.conda/
+.cache/
+__pycache__/
+*.pyc
+
+# --- VS Code / Remote ---
+.vscode-server/
+.config/
+
+# --- CUDA / NVIDIA ---
+.nv/
+
+# --- Secrets / keys ---
+.gnupg/
+.ssh/
+
+# --- Models & large files ---
+models/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# --- Temp / logs ---
+tmp/
+*.log
+
+.dotnet/
+
+
